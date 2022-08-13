@@ -24,11 +24,11 @@ class Intro extends React.Component {
     }
     render() {
       return (
-        <div id="intro" class="container-fluid">
-          <div class="row d-flex align-items-center">
+        <div id="intro" class="container-fluid position-relative">
+          <div class="row d-flex justify-content-start">
             <span id="intro-title"> {"Rachel Pham"} </span>
           </div>
-          <div class="row d-flex align-items-center">
+          <div class="row d-flex justify-content-start">
             <Typist>
                 <div id="intro-subtitle">welcome to the virtual representation of me</div>
                 {/* <div id="intro-desc"> aspiring software enginner </div> */}

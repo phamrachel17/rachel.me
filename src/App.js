@@ -10,7 +10,7 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import SkillsAndEdu from "./components/SkillsAndEdu";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
@@ -20,12 +20,15 @@ function App() {
     // }, [])
 
     return (
-        <div className="App">
+        <div class="App gradient-custom-1">
             <Navbar />
             {/* <Particles options={particlesOptions} init={particlesInit}/> */}
             <div id="content">
                 <Intro></Intro>
                 <About></About>
+                <Experience></Experience>
+                <SkillsAndEdu></SkillsAndEdu>
+                <Projects></Projects>
                 <Footer></Footer>
             </div>
             

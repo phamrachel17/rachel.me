@@ -1,32 +1,24 @@
-/* @font-face {
-    font-family: "Zen";
-    font-weight: 200;
-    font-display: fallback;
-    src: url("ZenKakuGothicNew-Regular.ttf") format("truetype");
-  }
-   */
-
   #about{
-    margin-top: 25%;
+    padding-top: 16%;
   }
   
-  #about-left {
+  #about-content {
     font-size: 17px;
   }
   
   #about-image img {
-    max-width: 400px;
-    height: auto;
+    max-width: 350px;
+    position: relative;
+  }
+
+  #about-image:hover {
+    transform: translateY(-15px);
   }
   
   @media only screen and (max-width: 788px) {
-    .about-image img {
+    #about-image img {
       max-width: 200px;
     }
-  }
-  
-  .about-image:hover {
-    transform: translateY(-7px);
   }
   
   @media only screen and (max-width: 600px) {
@@ -34,14 +26,16 @@
       height: unset;
       padding-left: unset;
       padding-right: unset;
-      padding-top: 30%;
     }
-    .about-image img {
-      display: none;
+    #about-image img {
+      margin-top: 70%;
+      padding-right: 40%;
+      max-width: 230px;
     }
   
-    .about-content {
+    #about-content {
       display: unset;
+      font-size: 12px;
     }
   }
   
