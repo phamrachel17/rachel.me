@@ -1,7 +1,7 @@
 {
-  "name": "your_app",
+  "name": "rachel.me",
   "version": "0.1.0",
-  "homepage": "https://phamrachel17.github.io/rachel.me",
+  "homepage": "https://phamrachel17.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -21,12 +21,12 @@
     "tsparticles-engine": "^2.2.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.2.1"
   }
 }
