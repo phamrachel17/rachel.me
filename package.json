@@ -1,6 +1,7 @@
 {
   "name": "your_app",
   "version": "0.1.0",
+  "homepage": "https://phamrachel17.github.io/rachel.me",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -20,6 +21,8 @@
     "tsparticles-engine": "^2.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
