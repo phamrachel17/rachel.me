@@ -25,7 +25,7 @@ class Experience extends React.Component {
             <div class="timeline-4 left-4">
             <div class="card gradient-custom">
                 <div class="card-body p-4">
-                <h4>Full stack developer @ NASA JPL</h4>
+                <h4>Full Stack Developer @ NASA JPL</h4>
                 <p class="small text-white-50 mb-4">June 2022 - Present</p>
                 <p>
                     Designed and built Network page that displays 500+ stations.
