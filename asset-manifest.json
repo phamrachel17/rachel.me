@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rachel.me/static/css/main.79422e58.css",
+    "main.js": "/rachel.me/static/js/main.176071f9.js",
+    "static/media/me4.jpg": "/rachel.me/static/media/me4.4f8d289eddc80e1f9db5.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/rachel.me/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.svg": "/rachel.me/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/rachel.me/index.html",
+    "main.79422e58.css.map": "/rachel.me/static/css/main.79422e58.css.map",
+    "main.176071f9.js.map": "/rachel.me/static/js/main.176071f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79422e58.css",
+    "static/js/main.176071f9.js"
+  ]
+}
