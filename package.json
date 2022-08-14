@@ -1,7 +1,7 @@
 {
   "name": "rachel.me",
   "version": "0.1.0",
-  "homepage": "https://phamrachel17.github.io",
+  "homepage": "https://phamrachel17.github.io/rachel.me/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
