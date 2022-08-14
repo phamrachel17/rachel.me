@@ -9,47 +9,43 @@
   }
 
   #intro-subtitle {
-    margin-top: -10px;
-    color: var(--slate);
     font-weight: 300;
     font-size: 30px;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     display: inline-block;
   }
-  
-  #intro-desc {
-    font-size: 20px;
-    max-width: 100%;
-    padding-bottom: 50px;
-    display: inline-block;
+
+  /*-----TYPIST CURSOR CSS-----*/
+  .Typist {
+    font-size: 30px;
+    margin-top: -30px;
+    color: #383838;
+  }
+  .Typist .Cursor--blinking {
+    visibility: hidden;
+    padding-left: 4px;
   }
 
   @media only screen and (max-width: 600px) {
   
     #intro {
+      text-align: center;
       min-height: unset;
       padding-left: unset;
-      margin: 0;
       align-items: center;
     }
 
     #intro-title {
-      font-size: 46px;
+      font-size: 40px;
+      text-align: center;
     }
   
     #intro-subtitle {
-      margin: 0;
-      font-size: 28px;
+      font-size: 20px;
       text-align: center;
     }
-  
-    #intro-desc {
-      font-size: 18px;
-      text-align: center;
-      max-width: unset;
-      padding-bottom: 40px;
-    }
+
   
   }
   

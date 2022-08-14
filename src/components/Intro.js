@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Intro.css";
 import Typist from 'react-typist';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import FadeInSection from "./FadeInSection";
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
 integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
@@ -26,26 +26,13 @@ class Intro extends React.Component {
       return (
         <div id="intro" class="container-fluid position-relative">
           <div class="row d-flex justify-content-start">
-            <span id="intro-title"> {"Rachel Pham"} </span>
+            <span id="intro-title" class="text-gray"> {"Rachel Pham"} </span>
           </div>
           <div class="row d-flex justify-content-start">
-            <Typist>
-                <div id="intro-subtitle">welcome to the virtual representation of me</div>
+          <Typist>
+                <div id="intro-subtitle" class="text-gray">welcome to the virtual representation of me!</div>
                 {/* <div id="intro-desc"> aspiring software enginner </div> */}
             </Typist>
-          </div>
-          <div class="row d-flex align-items-center">
-            {/* <div id="socialmedia-icons" href="/">
-            <a href="https://www.linkedin.com/in/rachelphamm/">
-                
-            </a>
-            <a href="mailto:rpham022@ucr.edu">
-              
-            </a>
-            <a href="https://github.com/phamrachel17">
-              
-            </a>
-            </div> */}
           </div>
         </div>
       );

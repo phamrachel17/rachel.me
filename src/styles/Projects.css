@@ -1,3 +1,9 @@
 #projects{
-    margin-top: 20%;
+    padding-top: 10%;
+    padding-bottom: 12%
+}
+
+#projects-title {
+    padding-left: 7%;
+    position: relative;
 }

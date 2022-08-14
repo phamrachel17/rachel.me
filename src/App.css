@@ -1,17 +1,43 @@
 .App {
-    /* text-align: center; */
-    /* background-color: #EFE2D8; */
+    font-family: 'Fredoka', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-gray {
+    color: #383838;
+}
+
+.subtext-gray {
+    color: #555555ce;
+}
+
+/* Fade-in Animation */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(15vh);
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, transform 1.5s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
 
 .gradient-custom-1 {
     /* fallback for old browsers */
     background: #ebbba7;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgb(234, 235, 167), rgba(207, 199, 248, 1));
+    background: -webkit-linear-gradient(to right, rgba(235, 187, 167, 1), rgba(207, 199, 248, 1));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(235, 187, 167, 1), rgba(207, 199, 248, 1))
+    background: linear-gradient(to right, rgb(250, 201, 180),rgba(207, 199, 248, 1))
 }
 
 html, body { overflow-x: hidden; }

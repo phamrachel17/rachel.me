@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
   constructor() {
@@ -25,7 +26,7 @@ class About extends React.Component {
     );
     const two = (
       <p class="text-start">
-        Currently, I am a Full Stack Developer at <b>NASA JPL</b>, specifically in the <a href="https://igs.org/">International GNSS Service</a> department.
+        Currently, I am a Full Stack Developer at <b>NASA JPL</b>, specifically in the <b><a href="https://igs.org/">International GNSS Service</a></b> department.
       </p>
     );
 
@@ -37,15 +38,15 @@ class About extends React.Component {
     );
 
     const desc_items = [one, two, three];
-    
     var image = require("./assets/me4.jpg");
 
   return (
-      <div id="about" class="container-fluid position-relative d-flex justify-content-center">
+    <FadeInSection>
+       <div id="about" class="container-fluid position-relative d-flex justify-content-center">
         <div class="row d-flex justify-content-evenly">
           <div id="about-content" class="col-5">
-            <h1 class="pb-4">ABOUT ME</h1>
-            <div id="about-desc">
+            <h1 class="pb-4 text-gray" >ABOUT ME</h1>
+            <div id="about-desc" class="subtext-gray">
               {desc_items}
             </div>
           </div>
@@ -53,7 +54,8 @@ class About extends React.Component {
             <div id="about-image"> <img src={image} /> </div>
           </div>
         </div>
-      </div>
+      </div>     
+    </FadeInSection>
     );
   }
 }
