@@ -41,7 +41,7 @@ class Navbar extends React.Component {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
