@@ -19,25 +19,30 @@ class About extends React.Component {
   render() {
     const one = (
       <p class="text-start">
-        Hello! I am an incoming undergraduate Junior studying <b>Computer Science</b> at
-        <b> UC Riverside </b>. My technical interests include full stack development, software development,
-        and the intersection between forensics and computer science.
+        Hi, thanks for stopping by! <span>&#9786;</span>
       </p>
     );
     const two = (
+      <p class="text-start"> 
+        My name is Rachel Pham and I am an undergraduate Junior studying <b>Computer Science</b> at 
+        <b> UC Riverside</b>. My technical interests include full stack development, software development,
+        and the intersection between forensics and computer science.
+      </p>
+    );
+    const three = (
       <p class="text-start">
-        Currently, I am a Full Stack Developer at <b>NASA JPL</b>, specifically in the <b><a href="https://igs.org/">International GNSS Service</a></b> department.
+        Currently, I am a Full Stack Developer Intern at <b>NASA JPL</b>, specifically in the <b><a href="https://igs.org/">International GNSS Service</a></b> department.
       </p>
     );
 
-    const three = (
+    const four = (
       <p class="text-start">
-        In my free time, I love watching horror movies and crime documentaries. Aside from that, you can find me journaling, thrifting at flea markets,
+        In my free time, I love watching horror movies and crime documentaries. Aside from that, you can find me journaling, going to concerts, taking sunset walks,
         or learning more about philosophy!
       </p>
     );
 
-    const desc_items = [one, two, three];
+    const desc_items = [one, two, three, four];
     var image = require("./assets/me4.jpg");
 
   return (

@@ -9,15 +9,14 @@
   #about-image img {
     max-width: 350px;
     position: relative;
-  }
-
-  #about-image:hover {
-    transform: translateY(-15px);
+    box-shadow: 15px 15px rgb(122, 126, 177);
   }
   
   @media only screen and (max-width: 788px) {
     #about-image img {
       max-width: 200px;
+      box-shadow: none;
+      margin-top: 90%;
     }
   }
   
@@ -28,7 +27,7 @@
       padding-right: unset;
     }
     #about-image img {
-      margin-top: 70%;
+      margin-top: 90%;
       padding-right: 40%;
       max-width: 230px;
     }

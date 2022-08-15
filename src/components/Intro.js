@@ -32,7 +32,7 @@ class Intro extends React.Component {
           <Typist>
                 <div id="intro-subtitle" class="text-gray">welcome to the virtual representation of me!</div>
                 {/* <div id="intro-desc"> aspiring software enginner </div> */}
-            </Typist>
+          </Typist>
           </div>
         </div>
       );

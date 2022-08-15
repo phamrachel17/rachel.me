@@ -7,3 +7,7 @@
     padding-left: 7%;
     position: relative;
 }
+
+.card {
+    box-shadow: 3px 3px 8px rgb(106, 106, 111);
+}

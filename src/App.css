@@ -7,12 +7,16 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color:rgb(77, 43, 244);
+}
+
 .text-gray {
     color: #383838;
 }
 
 .subtext-gray {
-    color: #555555ce;
+    color: #3e3e3ece;
 }
 
 /* Fade-in Animation */
@@ -71,7 +75,7 @@ html, body { overflow-x: hidden; }
 }
 
 .App-link {
-    color: #61dafb;
+    color: #5bcca8;
 }
 
 @keyframes App-logo-spin {

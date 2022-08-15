@@ -21,7 +21,7 @@ class Projects extends React.Component {
       <FadeInSection>
         <div id="projects" class="container-fluid position-relative">
           <div class="row gx-3 d-flex justify-content-around">
-          <h1 id="projects-title" class="pb-5">PROJECTS</h1>
+          <h1 id="projects-title" class="pb-4">PROJECTS</h1>
               <div class="card" style={{width: "18rem"}}>
                   <div class="card-body">
                       <h5 class="card-title">rachel.me</h5>

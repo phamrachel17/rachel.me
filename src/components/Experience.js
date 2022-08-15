@@ -20,7 +20,7 @@ class Experience extends React.Component {
     return (
       <FadeInSection>
         <div id="experience" class="container">
-            <h1 class="pb-5">EXPERIENCE</h1>
+            <h1 class="pb-4">EXPERIENCE</h1>
         <div class="main-timeline-4 text-white">
             <div class="timeline-4 left-4">
             <div class="card gradient-custom">
