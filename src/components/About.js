@@ -24,8 +24,8 @@ class About extends React.Component {
     );
     const two = (
       <p class="text-start"> 
-        My name is Rachel Pham and I am an undergraduate Junior studying <b>Computer Science</b> at 
-        <b> UC Riverside</b>. My technical interests include full stack development, software development,
+        My name is Rachel Pham and I am an undergraduate Junior studying <b>Statistics and Data Science</b> at 
+        <b> UC Santa Barbara</b>. My technical interests include full stack development, software development, data science,
         and the intersection between forensics and computer science.
       </p>
     );
