@@ -24,20 +24,21 @@ class About extends React.Component {
     );
     const two = (
       <p class="text-start"> 
-        My name is Rachel Pham and I am an undergraduate Junior studying <b>Statistics and Data Science</b> at 
-        <b> UC Santa Barbara</b>. My technical interests include full stack development, software development, data science,
-        and the intersection between forensics and computer science.
+        My name is Rachel Pham and I am an undergraduate Senior studying <b>Statistics and Data Science</b> with a focus in <b>Computer Science/Software Engineering</b> at 
+        <b> UC Santa Barbara</b>. My technical interests include full stack development, data science, and AI/machine learning.
       </p>
     );
     const three = (
       <p class="text-start">
-        Currently, I am a Full Stack Developer Intern at <b>NASA JPL</b>, specifically in the <b><a href="https://igs.org/">International GNSS Service</a></b> department.
+        During this past summer, I interned at <b>Northrop Grumman</b> as a <b>Software Engineer Intern</b>. I had a wonderful experience working in the 
+        BACN (Battlefield Airborne Communication Node) Software team integrating the Elastic Stack into the Virtual System Integration Lab (VSIL) environment.
+        I also created a finanical analysis tool using Python and increased analysis efficiency for managers by 98%.
       </p>
     );
 
     const four = (
       <p class="text-start">
-        In my free time, I love watching horror movies and crime documentaries. Aside from that, you can find me journaling, going to concerts, taking sunset walks,
+        In my free time, I love watching horror movies and crime documentaries. Aside from that, you can find me journaling, going to concerts/festivals, taking sunset walks,
         or learning more about philosophy!
       </p>
     );
