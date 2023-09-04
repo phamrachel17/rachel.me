@@ -12,11 +12,11 @@ a:hover {
 }
 
 .text-gray {
-    color: #383838;
+    color: #ffffff;
 }
 
 .subtext-gray {
-    color: #3e3e3ece;
+    color: #ffffff;
 }
 
 /* Fade-in Animation */
@@ -41,7 +41,7 @@ a:hover {
     background: -webkit-linear-gradient(to right, rgba(235, 187, 167, 1), rgba(207, 199, 248, 1));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgb(250, 201, 180),rgba(207, 199, 248, 1))
+    background: linear-gradient(to right, rgb(63, 72, 124), rgb(9, 15, 52))
 }
 
 html, body { overflow-x: hidden; }

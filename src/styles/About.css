@@ -1,16 +1,23 @@
   #about{
     padding-top: 13%;
+    padding-left: 7%;
     padding-bottom: 9%;
   }
+
+  #about-title {
+    font-size: 45px;
+  }
   
-  #about-content {
-    font-size: 17px;
+  #about-desc {
+    font-size: 22px;
+    color: #ffffffc5;
   }
   
   #about-image img {
-    max-width: 350px;
+    max-width: 450px;
+    margin-top: 18%;
     position: relative;
-    box-shadow: 15px 15px rgb(122, 126, 177);
+    box-shadow: 12px 12px rgb(103, 164, 164);
   }
   
   @media only screen and (max-width: 788px) {
@@ -31,6 +38,14 @@
       margin-top: 90%;
       padding-right: 40%;
       max-width: 230px;
+    }
+
+    #about-title {
+      font-size: 19px;
+    }
+    
+    #about-desc {
+      font-size: 13px;
     }
   
     #about-content {

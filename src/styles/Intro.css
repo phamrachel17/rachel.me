@@ -1,6 +1,4 @@
 #intro {
-    padding-top: 20%;
-    padding-left: 7%;
     min-height: 100vh;
   }
 
@@ -9,11 +7,12 @@
   }
 
   #intro-subtitle {
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 100;
+    font-size: 25px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
     display: inline-block;
+    color: #81e5d6;
   }
 
   /*-----TYPIST CURSOR CSS-----*/
@@ -44,6 +43,13 @@
     #intro-subtitle {
       font-size: 20px;
       text-align: center;
+    }
+
+    #clifford-attractor {
+      display: none;
+      width: 30%;
+      height: 30%;
+
     }
 
   

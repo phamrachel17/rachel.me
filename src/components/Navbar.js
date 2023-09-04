@@ -39,20 +39,23 @@ class Navbar extends React.Component {
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    {/* <li class="nav-item">
-                    <a class="nav-link" href="#skillsandedu">Skills and Education</a>
-                    </li> */}
-                    <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                </ul>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                      <a class="nav-link active" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="#experience">Experience</a>
+                      </li>
+                      {/* <li class="nav-item">
+                      <a class="nav-link" href="#skillsandedu">Skills and Education</a>
+                      </li> */}
+                      <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="#resume">Resume</a>
+                      </li>
+                  </ul>
                 </div>
             </div>
             </nav>

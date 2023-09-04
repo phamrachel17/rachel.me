@@ -1,6 +1,6 @@
 #experience {
     padding-top: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 10%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -133,7 +133,7 @@ background: #6a11cb;
 background: -webkit-linear-gradient(to right, rgba(148, 90, 219), rgba(53, 121, 239));
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, rgb(148, 90, 219), rgb(53, 121, 239))
+background: linear-gradient(to right, rgb(32, 189, 161), rgb(78, 45, 226))
 }
 
 .gradient-custom-4 {
@@ -144,5 +144,5 @@ background: #f093fb;
 background: -webkit-linear-gradient(to left, rgba(235, 175, 108), rgba(245, 87, 108, 1));
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to left, rgb(235, 175, 108), rgb(245, 87, 108, 1))
+background: linear-gradient(to left, rgb(221, 162, 95), rgb(232, 61, 84))
 }

@@ -1,7 +1,11 @@
 import React from "react";
 import "../styles/Intro.css";
 import Typist from 'react-typist';
-import FadeInSection from "./FadeInSection";
+import CliffordAttractor from "./CliffordAttractor";
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
 integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
@@ -24,17 +28,20 @@ class Intro extends React.Component {
     }
     render() {
       return (
-        <div id="intro" class="container-fluid position-relative">
-          <div class="row d-flex justify-content-start">
-            <span id="intro-title" class="text-gray"> {"Rachel Pham"} </span>
-          </div>
-          <div class="row d-flex justify-content-start">
-          <Typist>
-                <div id="intro-subtitle" class="text-gray">welcome to the virtual representation of me!</div>
-                {/* <div id="intro-desc"> aspiring software enginner </div> */}
-          </Typist>
-          </div>
-        </div>
+        <Container fluid id="intro">
+          <Row>
+            <Col style={{ paddingLeft: '10%', paddingRight: '10%', paddingTop: '20%'}}>
+              <span id="intro-title" class="text-gray"> {"Hi, I'm Rachel!"} </span>
+              <Typist>
+                  <div id="intro-subtitle" class="text-gray"> Interested in Software Engineering, Data Science, and Machine Learning. </div>
+              </Typist>
+            </Col>
+            <Col id="clifford-attractor" style={{ paddingTop: '10%', paddingRight: '10%' }}>
+              <CliffordAttractor />
+            </Col>
+          </Row>
+        </Container>
+
       );
     }
   }
