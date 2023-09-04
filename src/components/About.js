@@ -34,15 +34,22 @@ class About extends React.Component {
         and Data Science project. Read more about it in my resume below!
       </p>
     );
-  
+
     const four = (
+      <p className="text-start">
+        I am currently looking for <span style={{ color: '#00ffd9' }}>full-time</span> and <span style={{ color: '#00ffd9' }}>new grad</span> opportunities to start after <span style={{ color: '#00ffd9' }}>December 2023</span>.
+        Willing to relocate anywhere in California, New York, or Seattle!
+      </p>
+    );
+  
+    const five = (
       <p className="text-start">
         In my free time, I love watching horror movies and crime documentaries. Aside from that, you can find me journaling, going to concerts/festivals, taking sunset walks,
         or learning more about philosophy!
       </p>
     );
 
-    const desc_items = [one, two, three, four];
+    const desc_items = [one, two, three, four, five];
     var image = require("./assets/me4.jpg");
 
   return (
