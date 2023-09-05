@@ -20,9 +20,28 @@
     box-shadow: 12px 12px rgb(103, 164, 164);
   }
   
-  @media only screen and (max-width: 788px) {
+  @media only screen and (max-width: 808px) {
+    #about {
+      height: unset;
+      padding-left: unset;
+      padding-right: unset;
+    }
+
+    #about-title {
+      font-size: 22px;
+    }
+    
+    #about-desc {
+      font-size: 15px;
+    }
+  
+    #about-content {
+      display: unset;
+      font-size: 14px;
+    }
+
     #about-image img {
-      max-width: 200px;
+      max-width: 250px;
       box-shadow: none;
       margin-top: 90%;
     }

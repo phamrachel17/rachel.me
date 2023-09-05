@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 import styled from "styled-components";
 
+
 const maxLineCount = 2000; // Adjust this to the desired line count before reset
 
 const Sketch = (p) => {
@@ -20,7 +21,7 @@ const Sketch = (p) => {
     x = x2;
     y = y2;
 
-    const scaleFactor = p.min(p.width, p.height) / 4;
+    const scaleFactor = p.min(p.width, p.height) / 5.3;
     const px2 = x2 * scaleFactor;
     const py2 = y2 * scaleFactor;
 
@@ -70,12 +71,10 @@ const Sketch = (p) => {
   };
 };
 
+
 const CliffordAttractor = () => (
-  <CliffordAttractorStyled>
     <ReactP5Wrapper sketch={Sketch} />
-  </CliffordAttractorStyled>
 );
 
-const CliffordAttractorStyled = styled.div``;
 
 export default CliffordAttractor;
