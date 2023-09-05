@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rachel.me/static/css/main.d2e0ea01.css",
-    "main.js": "/rachel.me/static/js/main.55978799.js",
+    "main.css": "/rachel.me/static/css/main.4f80fc3a.css",
+    "main.js": "/rachel.me/static/js/main.6aadce1b.js",
     "static/media/me4.jpg": "/rachel.me/static/media/me4.5a5374afe90d391863be.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/rachel.me/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,11 +11,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/rachel.me/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/logo.svg": "/rachel.me/static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
     "index.html": "/rachel.me/index.html",
-    "main.d2e0ea01.css.map": "/rachel.me/static/css/main.d2e0ea01.css.map",
-    "main.55978799.js.map": "/rachel.me/static/js/main.55978799.js.map"
+    "main.4f80fc3a.css.map": "/rachel.me/static/css/main.4f80fc3a.css.map",
+    "main.6aadce1b.js.map": "/rachel.me/static/js/main.6aadce1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2e0ea01.css",
-    "static/js/main.55978799.js"
+    "static/css/main.4f80fc3a.css",
+    "static/js/main.6aadce1b.js"
   ]
 }
