@@ -30,13 +30,13 @@ class Intro extends React.Component {
       return (
         <Container fluid id="intro">
           <Row>
-            <Col style={{ paddingLeft: '10%', paddingRight: '8%', paddingTop: '20%'}}>
+            <Col style={{ paddingLeft: '8%', paddingRight: '8%', paddingTop: '20%'}}>
               <span id="intro-title" class="text-gray"> {"Hi, I'm Rachel!"} </span>
               <Typist>
                   <div id="intro-subtitle" class="text-gray"> Interested in Software Engineering, Data Science, and Machine Learning. </div>
               </Typist>
             </Col>
-            <Col id="clifford-attractor" style={{ paddingTop: '5%', paddingRight: '10%' }}>
+            <Col id="clifford-attractor" style={{ paddingTop: '5%', paddingRight: '9%' }}>
               <CliffordAttractor />
               <div id="animation-subtitle"> Coded an animation of a Clifford Attractor<br />because I find them fascinating! </div>
             </Col>

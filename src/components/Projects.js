@@ -41,7 +41,7 @@ class Projects extends React.Component {
               <div class="card" style={{width: "20rem"}}>
                   <div class="card-body">
                       <h5 class="card-title">IGS Network Map</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Full stack project</h6>
+                      <h6 class="card-subtitle mb-2 text-muted">Full Stack Project</h6>
                       <p class="card-text">Used HTML, CSS, JavaScript, Django, and SQL to design and build a responsive interface that displays over 500 station info data.</p>
                   </div>
               </div>
@@ -67,7 +67,7 @@ class Projects extends React.Component {
               <div class="card" style={{width: "20rem"}}>
                   <div class="card-body">
                       <h5 class="card-title">Dough Tracker</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">ML Project</h6>
+                      <h6 class="card-subtitle mb-2 text-muted">Full Stack Project</h6>
                       <p class="card-text">Developed a full stack expense tracker website with MongoDB schemas to support CRUD operations and Google user authentication with Firebase</p>
                       <a href="https://github.com/phamrachel17/track-my-money"><i class="fa fa-brands fa-github fa-2x"></i></a>
                   </div>
